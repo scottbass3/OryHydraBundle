@@ -1,0 +1,21 @@
+{
+    "name": "scottbass3/ory-hydra-bundle",
+    "description": "Symfony bundle for ory hydra client",
+    "type": "symfony-bundle",
+    "keywords": ["ory", "hydra", "api", "client"],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Scottbass3\\OryHydraBundle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "scottbass",
+            "email": "scottbass41@gmail.com"
+        }
+    ],
+    "require": {
+        "ory/hydra-client": "^25.4"
+    }
+}
