@@ -16,6 +16,18 @@
         }
     ],
     "require": {
-        "ory/hydra-client": "^25.4"
+        "symfony/framework-bundle": "^6.0|^7.0",
+        "scottbass3/hydra-client-php-psr-18": "^1.0",
+        "symfony/http-client": "^6.0|^7.0",
+        "guzzlehttp/promises": "^2.3"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^2.1",
+        "friendsofphp/php-cs-fixer": "^3.89"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
     }
 }
