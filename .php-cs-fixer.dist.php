@@ -1,12 +1,9 @@
 <?php
 
 $finder = PhpCsFixer\Finder::create()
-    ->in(__DIR__)
-    ->name('*.php')
+    ->in([__DIR__.'/src', __DIR__.'/config', __DIR__.'/tests'])
 ;
 
-// TODO: Définir les règles de style communes
-// spécifiques au projet
 return (new PhpCsFixer\Config())
     ->setRules([
         '@Symfony' => true,
